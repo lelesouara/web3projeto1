@@ -1,0 +1,16 @@
+#wallpaper_contact{
+    background: url('../img/wallcontact.png');
+    width: 320px;
+    height: 440px;
+}
+
+#box_content{
+    width: 280px;
+    margin: auto;
+    height: 340px;
+    padding: 10px;
+    background: #f7f7f7;
+    border:1px solid #d1d1d1;
+    border-radius: 5px;
+    overflow-x: hidden;
+}

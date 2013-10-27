@@ -1,0 +1,102 @@
+/*
+    * Style CSS - Agenda
+*/
+@font-face{
+font-family: web_font;
+src: url(../fonts/websitefont.ttf);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: url('../img/backgroundApp.png') repeat;
+    font-family: web_font;
+    font-size: 14px;
+}
+
+#app{
+    margin: 10px auto;
+    width: 350px;
+    height: 600px;
+    background: #131313;
+    border: 4px solid #333;
+    border-radius: 25px;
+    box-shadow: 0px 0px 10px #333;
+    position: relative;
+}
+
+#component1{
+    margin: 30px auto;
+    width: 75px;
+    background: #101010;
+    height: 10px;
+    border: 2px solid #333;
+    border-radius: 7px;
+}
+
+#container{
+    margin: auto;
+    width: 320px;
+    height: 440px;
+    background: #fff;
+    position: relative;
+
+}
+
+#component2{
+    margin: 20px auto;
+    width: 40px;
+    height: 40px;
+    border-radius: 40px;
+    background: #101010;
+    border: 2px solid #333;
+}
+
+#component2_1{
+    margin: 10px auto;
+    width: 18px;
+    height: 18px;
+    border: 1px solid #333;
+    border-radius: 5px;
+}
+
+#wallpaper{
+    background: url('../img/walliphone.jpg');
+    width: 320px;
+    height: 440px;
+}
+
+.icon_home{
+    cursor: pointer;
+    width: 46px;
+    height: 46px;
+    float: left;
+    border-radius: 5px;
+    margin: 30px;
+}
+
+.alert{
+    width: 200px;
+    min-height: 30px;
+    background: #f7f7f7;
+    border: 1px solid #333;
+    z-index: 999;
+    float: left;
+    position: absolute;
+    top: 25%;
+    left: 10%;
+    color: #333;
+    box-shadow: 1px 0px 15px #333;
+}
+
+.close_alert{
+    width: 16px;
+    height: 16px;
+    background: url('../img/closealert.png') no-repeat;
+    float: right;
+    margin: 15px;
+    cursor: pointer;
+}
